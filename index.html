@@ -313,7 +313,7 @@
 						}, 10);
 						return false;
 					}
-					let is10M = file.size / 1024 / 1024 < 1;
+					let is10M = file.size / 1024 / 1024 < 10;
 					//限制文件上传大小
 					if (!is10M) {
 						setTimeout(() => {
