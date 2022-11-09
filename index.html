@@ -215,7 +215,11 @@
 							message: '请输入药品名称',
 							trigger: 'blur'
 						}],
-						batchNo: [],
+						batchNo: [{
+							required: true,
+							message: '请输入药品批号',
+							trigger: 'blur'
+						}],
 						description: [{
 							required: true,
 							message: '请输入疑似不良反应描述',
@@ -256,8 +260,8 @@
 						"label": "上柯发货",
 						"value": '上柯发货'
 					}, {
-						"label": "上药一生化发货",
-						"value": '上药一生化发货'
+						"label": "上药第一生化发货",
+						"value": '上药第一生化发货'
 					}],
 				}
 			},
